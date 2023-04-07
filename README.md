@@ -1,5 +1,5 @@
 # food-sales-predictions
-The main purpose of this project is to help the retailer understand the properties of products and outlets that play crucial roles in predicting sales.
+The main purpose of this project is to help the retailer understand the properties of products and outlets that play crucial roles in predicting sales. The original data can be [found here](https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/#About) which contains 12 columns and 8523 rows.
 
 ## Data Dictionary
 
