@@ -15,9 +15,13 @@ The main purpose of this project is to help the retailer understand the properti
 
 ![image](https://user-images.githubusercontent.com/126204698/229251379-fde0b3ca-1bec-4ede-ae16-358b44a5260e.png)
 
+From the visulization data above, different size of outlets does affect sales. Supermarket Type 1 has the most sales whilst Grocery stores with the least
+
 - Does where the item locate affect sales?
 
 ![image](https://user-images.githubusercontent.com/126204698/229251403-c0a482be-3b0a-4aa9-9fac-86e9b3d447c3.png)
+
+Results above suggest there is negative correlation with -.13 r value between Item_Outlet_Sales and Item_Visibility. It can also be concluded that there is very limit relationship whilst comparing these two.
 
 ## Key Insights
 ## Predict Model Comparison
