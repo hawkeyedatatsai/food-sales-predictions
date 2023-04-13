@@ -1,5 +1,5 @@
 # food-sales-predictions
-The main purpose of this project is to help the retailer understand the properties of products and outlets that play crucial roles in predicting sales. The original data can be [found here](https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/#About) which contains 12 columns and 8523 rows.
+The main purpose of this project is to help the retailer understand the properties of products and outlets that play crucial roles in predicting sales. The original data can be [found here](https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/#About) which contains 12 columns and 8523 rows. After spending much time researching, a fun fact was founded that the original data set was from India and the currency is in Rupees, and it help explains the price range in the dataset.
 
 ## Data Dictionary
 
