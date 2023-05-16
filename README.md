@@ -38,3 +38,5 @@ Results above suggest there is negative correlation with -.13 r value between It
 
 - From conclusions above, I would recommend to use decision tree model.
 
+# Contact
+Please direct all communications to Henry Tsai at hawkeyedatatsai@gmail.com
