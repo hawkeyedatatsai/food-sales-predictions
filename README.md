@@ -24,7 +24,13 @@ From the visulization data above, different size of outlets does affect sales. S
 Results above suggest there is negative correlation with -.13 r value between Item_Outlet_Sales and Item_Visibility. It can also be concluded that there is very limit relationship whilst comparing these two.
 
 ## Key Insights
-## Predict Model Comparison
+
+### Feature Importances
+
+
+
+
+## Machine Learning Models Comparison
 - Linear Regression
 - Decision Tree Regressor
 - Bagged Tree Regressor
