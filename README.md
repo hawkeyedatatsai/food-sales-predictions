@@ -21,7 +21,7 @@ From the visulization data above, different size of outlets does affect sales. S
 
 ![image](https://user-images.githubusercontent.com/126204698/229251403-c0a482be-3b0a-4aa9-9fac-86e9b3d447c3.png)
 
-Results above suggest there is negative correlation with -.13 r value between Item_Outlet_Sales and Item_Visibility. It can also be concluded that there is very limit relationship whilst comparing these two.
+The results above suggest there is a negative correlation with -.13 r value between Item_Outlet_Sales and Item_Visibility. It can also be concluded that there is very limit relationship whilst comparing these two.
 
 ## Key Insights
 
@@ -34,6 +34,36 @@ The Top 5 most important features from the tuned decision tree are
 - ITEM Visibility
 - Outlet_Type_Supermarket Type3
 - ITEM Weight
+
+## Global Explanations
+
+### Summary Plot - Bar
+
+![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/d0eb0c70-b23c-4a8e-8ef5-e315e97617a4)
+
+### Summary Plot - Dot
+
+![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/8a97d07c-b7a5-499a-9c46-b81057a8b73e)
+
+## Local Explanations
+
+### Item_MRP
+
+#### Lime tabular explanation
+![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/15019fff-fbdf-45ca-8388-f017d82a3887)
+
+![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/52797a18-1ee2-42e0-99bb-9303d2864790)
+
+#### Force Plot
+![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/4d9d4fd9-efa2-4ae0-acfb-d74143561e40)
+
+### Item_Visibility
+
+#### Lime tabular explanation
+![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/af75bcf3-69c1-4f91-8864-787d8a259fd1)
+
+#### Force Plot
+![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/754819a7-cacb-4e3d-b300-b5f88bf6dabc)
 
 
 ## Machine Learning Models Comparison
