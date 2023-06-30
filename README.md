@@ -50,8 +50,6 @@ The Top 5 most important features from the tuned decision tree are
 ### Item_MRP
 
 #### Lime tabular explanation
-![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/15019fff-fbdf-45ca-8388-f017d82a3887)
-
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/52797a18-1ee2-42e0-99bb-9303d2864790)
 
 #### Force Plot
