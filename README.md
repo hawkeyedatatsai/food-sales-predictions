@@ -26,8 +26,14 @@ Results above suggest there is negative correlation with -.13 r value between It
 ## Key Insights
 
 ### Feature Importances
+![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/f90d358a-68cb-4021-8963-4f48ac4838f1)
 
-
+The Top 5 most important features from the tuned decision tree are
+- Outlet_Type_Grocery Store
+- ITEM MRP
+- ITEM Visibility
+- Outlet_Type_Supermarket Type3
+- ITEM Weight
 
 
 ## Machine Learning Models Comparison
