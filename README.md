@@ -25,7 +25,7 @@ The results above suggest there is a negative correlation with -.13 r value betw
 
 ## Key Insights
 
-### Coefficients
+### Coefficients From Linear Regression Model
 
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/ad3b0c3d-d7d0-453f-9465-52451b4989a4)
 
@@ -40,16 +40,15 @@ For every 1 rupee ITEM MRP increased, it will increase the item outlet sales by 
 - Outlet type grocery store:
 When the item is switched to be sold at grocery store, the model predicts the annual sales to drop by over 1741 rupees.
 
-### Feature Importances
+### Feature Importances From Tree Based Model
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/a3d6e098-fe46-4621-9aec-914c36a82e7e)
 
 
 The Top 3 most important features from the tuned decision tree are
-- Outlet_Type_Grocery Store
+
 - ITEM MRP
-- ITEM Visibility
 - Outlet_Type_Supermarket Type3
-- ITEM Weight
+- Outlet_Type_Grocery Store
 
 ## Global Explanations
 
