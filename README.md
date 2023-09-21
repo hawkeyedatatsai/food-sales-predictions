@@ -44,11 +44,7 @@ When the item is switched to be sold at grocery store, the model predicts the an
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/a3d6e098-fe46-4621-9aec-914c36a82e7e)
 
 
-The Top 3 most important features from the tuned decision tree are
-
-- ITEM MRP
-- Outlet_Type_Supermarket Type3
-- Outlet_Type_Grocery Store
+The Top 3 most important features from the tuned decision tree are the same to coefficients. The model suggests that these three features are the ones that were used extensively and repeatedly during the training process. However, feature importance does not indicate directionality.
 
 ## Global Explanations
 
