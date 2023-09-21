@@ -25,10 +25,26 @@ The results above suggest there is a negative correlation with -.13 r value betw
 
 ## Key Insights
 
-### Feature Importances
-![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/f90d358a-68cb-4021-8963-4f48ac4838f1)
+### Coefficients
 
-The Top 5 most important features from the tuned decision tree are
+![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/ad3b0c3d-d7d0-453f-9465-52451b4989a4)
+
+Top 3 most impactful features include:
+
+- Outlet_Type_Supermarket Type3:
+For items being sold at Type 3 Supermarket, it changes model prediction to increase the item outlet sales by 1624.808 rupee.
+
+- ITEM MRP:
+For every 1 rupee ITEM MRP increased, it will increase the item outlet sales by 984.315 rupees annually.
+
+- Outlet type grocery store:
+When the item is switched to be sold at grocery store, the model predicts the annual sales to drop by over 1741 rupees.
+
+### Feature Importances
+![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/a3d6e098-fe46-4621-9aec-914c36a82e7e)
+
+
+The Top 3 most important features from the tuned decision tree are
 - Outlet_Type_Grocery Store
 - ITEM MRP
 - ITEM Visibility
