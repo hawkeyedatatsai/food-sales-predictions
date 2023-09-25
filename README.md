@@ -84,24 +84,59 @@ From the red dots on the right, if items are sold in Type3 Supermarket, the mode
 
 ## Local Explanations
 
-### Item_MRP
+### Item_MRP 
+I select the sample with highest item mrp because it is the most obvious important feature through global explanation.
 
 #### Lime tabular explanation
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/52797a18-1ee2-42e0-99bb-9303d2864790)
 
+##### Interpretation of LIME table
+The model predicts this sample has a sales value of 4055.65.
+
+There are several features that were associated with price increased and the following two features have the most significant impact:
+
+outlet type grocery store = 0, which means item not being sold at grocery actually helps increase sales price.
+
+item mrp > .78, whereas this sample has an item mrp of 1.97.
+
+The model predicts that outlet type supermarket = 0 decrease the pricing. In other words, the type of outlet plays an significant role with this sample.
+
 #### Force Plot
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/4d9d4fd9-efa2-4ae0-acfb-d74143561e40)
 
+##### Interpretation of Individual Force Plot
+- Base value suggest 2210 dollars in sales
+
+- Item_MRP, with the value of 1.968, is the most important feature for this item and it is pushing the prediction toward a higher value (red bar).
+
+- Outlet_Type_Groery_Store = 0 (item not sold at Grocery Store) is also pushing the prediction toward a higher value.
+
+- Outlet_Type_Supermarket Type3= 0 (item not sold at Supermarket Type3) pushing prediction toward a lower value.
+
 ### Item_Visibility
+I select the sample with highest item visibility because of my personal interest on understanding the displaying and presentation area of items.
 
 #### Lime tabular explanation
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/af75bcf3-69c1-4f91-8864-787d8a259fd1)
 
+##### Interpretation of LIME table
+- The model predicts this sample has a sales value of 315,15.
+
+- There are two features that have the most significant impact overall and both have to do with price decrease, and one again, the model is telling us how important the selling place with the prediction.
+
+- According to the model, item MRP and item type seafood = 0 make the biggest positive impact on this specific sales. The latter could have to do with the fact that seafood needs addition expenses for freezers and storage and concerns about shorter expiration date.
+
+- After all, it should be the sales drives item visibility, not the other way around.
+
 #### Force Plot
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/754819a7-cacb-4e3d-b300-b5f88bf6dabc)
 
+##### Interpretation of Individual Force Plot
+- base value suggest 2210 dollars in sales whilst predicted sale price is 315.15, much less than base value.
 
+- Outlet_Type_Groery_Store = 1 (item sold at Grocery Store) AND Outlet_Type_Supermarket Type3= 0 (item not sold at Supermarket Type3) is pushing the prediction toward a lower value.
 
+- Item_MRP, with the value of .2302, is the most significant feature pushing the prediction toward a higher value (red bar).
 
 # Contact
 Please direct all communications to Henry Tsai at hawkeyedatatsai@gmail.com
