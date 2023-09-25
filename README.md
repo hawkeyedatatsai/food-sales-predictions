@@ -23,6 +23,20 @@ From the visulization data above, different size of outlets does affect sales. S
 
 The results above suggest there is a negative correlation with -.13 r value between Item_Outlet_Sales and Item_Visibility. It can also be concluded that there is very limit relationship whilst comparing these two.
 
+## Machine Learning Models Comparison
+- Linear Regression
+- Decision Tree Regressor
+- Bagged Tree Regressor
+
+## Comparing MAE, MSE, RMSE and R2 for Each Regression
+![image](https://user-images.githubusercontent.com/126204698/229249968-d5af2506-b237-464b-879c-7c8a5edf5936.png)
+
+- All three models generate similiar R2 test score but Decision tree has the highest.
+
+- All three models generate similiar RMSE test score but Decision tree has the lowest.
+
+- From conclusions above, I would recommend to use decision tree model.
+
 ## Key Insights
 
 ### Coefficients From Linear Regression Model
@@ -75,19 +89,7 @@ The Top 3 most important features from the tuned decision tree are the same to c
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/754819a7-cacb-4e3d-b300-b5f88bf6dabc)
 
 
-## Machine Learning Models Comparison
-- Linear Regression
-- Decision Tree Regressor
-- Bagged Tree Regressor
 
-## Comparing MAE, MSE, RMSE and R2 for Each Regression
-![image](https://user-images.githubusercontent.com/126204698/229249968-d5af2506-b237-464b-879c-7c8a5edf5936.png)
-
-- All three models generate similiar R2 test score but Decision tree has the highest.
-
-- All three models generate similiar RMSE test score but Decision tree has the lowest.
-
-- From conclusions above, I would recommend to use decision tree model.
 
 # Contact
 Please direct all communications to Henry Tsai at hawkeyedatatsai@gmail.com
