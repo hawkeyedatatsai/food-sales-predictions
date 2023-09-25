@@ -66,9 +66,21 @@ The Top 3 most important features from the tuned decision tree are the same to c
 
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/d0eb0c70-b23c-4a8e-8ef5-e315e97617a4)
 
+Summary plot and original feature importances suggest same top three features: ITEM MRP, Outlet_Type_Grocery Store and Outlet_Type_Supermarket Type3.
+
 ### Summary Plot - Dot
 
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/8a97d07c-b7a5-499a-9c46-b81057a8b73e)
+
+#### interpret the top 3 most important features
+- Item_MRP
+From the red dots on the right, we can observe that the greater the maximum retail price of an item, the higher chance the model will predict a higher item outlet sales.
+
+- Outlet_Type_Grocery Store
+From the negative values (blue dots on the right). If items are less likely to be sold in Grocery Store, it predicts a higher value in sales.
+
+- Outlet_Type Supermarket Type3
+From the red dots on the right, if items are sold in Type3 Supermarket, the models predicts it has a higher value in sales.
 
 ## Local Explanations
 
