@@ -43,21 +43,21 @@ The results above suggest there is a negative correlation with -.13 r value betw
 
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/ad3b0c3d-d7d0-453f-9465-52451b4989a4)
 
-Top 3 most impactful features include:
+Top 3 features with the largest coefficcient :
 
 - Outlet_Type_Supermarket Type3:
-For items being sold at Type 3 Supermarket, it changes model prediction to increase the item outlet sales by 1624.808 rupee.
+When items are sold at a Supermarket Type 3, the model predicts a significant increase in item outlet sales, with a boost of 1624.808 rupees.
 
 - ITEM MRP:
-For every 1 rupee ITEM MRP increased, it will increase the item outlet sales by 984.315 rupees annually.
+For every 1 rupee ITEM MRP increased, it increases the item outlet sales by 984.315 rupees annually.
 
 - Outlet type grocery store:
-When the item is switched to be sold at grocery store, the model predicts the annual sales to drop by over 1741 rupees.
+If the decision is made to sell the item in a grocery store, the model predicts an annual sales decrease of over 1741 rupees.
 
 ### Feature Importances From Tree Based Model
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/a3d6e098-fe46-4621-9aec-914c36a82e7e)
 
-The Top 3 most important features from the tuned decision tree are the same to coefficients. The model suggests that these three features are the ones that were used extensively and repeatedly during the training process. However, feature importance does not indicate directionality.
+The Top 3 most important features from the tuned decision tree are the same to coefficients. The model suggests that these three features are the ones that were used extensively and repeatedly during the training process. It's important to note that while feature importance is highlighted, it does not indicate the directionality of their impact."
 
 ## Global Explanations
 
@@ -65,7 +65,7 @@ The Top 3 most important features from the tuned decision tree are the same to c
 
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/d0eb0c70-b23c-4a8e-8ef5-e315e97617a4)
 
-Summary plot and original feature importances suggest same top three features: ITEM MRP, Outlet_Type_Grocery Store and Outlet_Type_Supermarket Type3.
+Summary bar plot and original feature importances suggest same top three features: ITEM MRP, Outlet_Type_Grocery Store and Outlet_Type_Supermarket Type3. Additionally, the bar plot indicates that a change in ITEM MRP could result in a prediction value shift of over 800 rupees.
 
 ### Summary Plot - Dot
 
@@ -111,7 +111,7 @@ I select the sample with highest item mrp because it is the most obvious importa
 - Outlet_Type_Supermarket Type3= 0 (item not sold at Supermarket Type3) pushing prediction toward a lower value.
 
 ### Item_Visibility
-I select the sample with highest item visibility because of my personal interest on understanding the relationship between presentation area of items and their sales.
+I selected the sample with the highest item visibility due to my personal interest in understanding the relationship between the presentation area of items and their sales.
 
 #### Lime tabular explanation
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/af75bcf3-69c1-4f91-8864-787d8a259fd1)
@@ -123,7 +123,7 @@ I select the sample with highest item visibility because of my personal interest
 
 - According to the model, item MRP and item type seafood = 0 make the biggest positive impact on this specific sales. The latter could have to do with the fact that seafood needs addition expenses for freezers and storage and concerns about shorter expiration date.
 
-- After all, it should be the sales drives item visibility, not the other way around.
+- In conclusion, the model suggests that it's the sales that drive item visibility, rather than the other way around.
 
 #### Force Plot
 ![image](https://github.com/hawkeyedatatsai/food-sales-predictions/assets/126204698/754819a7-cacb-4e3d-b300-b5f88bf6dabc)
